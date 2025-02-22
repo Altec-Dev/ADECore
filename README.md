@@ -154,7 +154,7 @@ Defines the area in which the parts list items are found in the document.
 - `End`: RegEx pattern that identifies the end of the piece list.
 - `EndFromTop`: Determines whether the search starts from the top (0) or bottom (1) (default: 0).
 
-### BOM rows
+### BOM Row
 
 **Section:** `[BOMRow]`
 
@@ -162,6 +162,7 @@ Defines how each individual BOM item is recognised.
 
 - `Start`: RegEx pattern that identifies the start of a BOM item.
 - `End`: RegEx pattern that identifies the end of a BOM item. If empty, it is assumed that all information is on one line.
+- `AsBlock`: Enables the complete extraction of the BOM in to process it later without the document information, e.g. via AI. (1 for yes, default 0 for no)
 
 ### BOM Columns
 
