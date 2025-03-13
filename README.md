@@ -4,7 +4,7 @@
 
 The programme is used in the company to automatically import business documents, mainly in PDF format, into the ERP system or to prepare them for further processing in Excel.
 
-It is a further development of [**BiI Automatic Document Entry**](https://bii.erppdm.com/automaticdocumententry.html)
+This is a further development of **BiI Automatic Document Entry**. Unfortunately, the website is no longer available.
 
 # Features
 
